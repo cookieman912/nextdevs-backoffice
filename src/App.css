@@ -45,3 +45,10 @@ footer {
   max-width: 1350px;
   margin: auto;
 }
+
+.spinner-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 150px;
+}

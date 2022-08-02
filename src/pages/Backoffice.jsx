@@ -7,7 +7,7 @@ export default function BackOffice() {
     if (productsState === '') {
         productService.getProducts()
         .then((res) => {
-            setProductState(res)
+            setProductState(res);
         });
     }
 
