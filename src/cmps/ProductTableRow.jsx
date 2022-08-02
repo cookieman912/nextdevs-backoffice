@@ -1,5 +1,4 @@
 export default function ProductTableRow(props) {
-    console.log(props.product);
     return (
         <tr>
             <td>{props.product.id}</td>

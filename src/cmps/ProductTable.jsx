@@ -1,4 +1,5 @@
 import React from "react";
+import Table from 'react-bootstrap/Table';
 import ProductTableRow from "./ProductTableRow";
 export default function ProductTable(props) { 
     if (!props.products) {
@@ -6,7 +7,7 @@ export default function ProductTable(props) {
             <div>loading</div>);
     } else {
         return (
-            <table>
+            <Table striped bordered hover variant="dark">
                 <tbody>
                     <tr>
                         <td>ID</td>
@@ -19,7 +20,7 @@ export default function ProductTable(props) {
                         })
                     }
                 </tbody>
-            </table>
+            </Table>
         )
     }
 }

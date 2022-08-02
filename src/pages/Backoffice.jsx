@@ -13,7 +13,6 @@ export default function BackOffice() {
 
     return (
         <main>
-            <h1>Back Office</h1>
             <ProductTable products = {productsState}></ProductTable>
         </main>
     )

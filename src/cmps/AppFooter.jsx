@@ -1,5 +1,9 @@
 export default function appFooter() {
     return ( 
-        <h1>Hello Footer</h1>
+        <footer>
+           <div className="footer-container">
+                <h3>Cofferights ⓒ</h3>
+           </div> 
+        </footer>
     )
 }
